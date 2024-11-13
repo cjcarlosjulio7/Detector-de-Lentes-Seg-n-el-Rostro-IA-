@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Probador Facial de Lentes</title>
+    <link rel="stylesheet" href="../static/style.css">
+</head>
+<body>
+    <h1>LENTE IDEAL PARA TU ROSTRO</h1>
+    <div id="camera-container">
+        <video id="video" width="640" height="480" autoplay></video>
+        <div class="guide"></div>
+        <button id="capture-button">Capturar Rostro</button>
+        <canvas id="canvas" style="display:none;"></canvas>
+    </div>
+    <div id="result">
+        <h2>Tu tipo de rostro es: <span id="face-shape"></span></h2>
+        <h3>Recomendación: <span id="recommendation"></span></h3>
+        <canvas id="result-canvas"></canvas>
+        <button id="change-lens-button">Cambiar Marco</button>
+    </div>
+    <script src="../static/script.js" type="text/javascript"></script>
+</body>
+</html>

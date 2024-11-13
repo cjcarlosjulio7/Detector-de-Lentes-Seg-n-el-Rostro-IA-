@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+#camera-container {
+    position: relative;
+    margin: 20px auto;
+    width: 640px;
+    text-align: center;
+}
+
+#result {
+    display: none;
+    margin-top: 20px;
+}
+
+#result img {
+    max-width: 100%;
+    height: auto;
+}
+
+#capture-button,
+#change-lens-button {
+    display: block;
+    margin: 20px auto;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.guide {
+    position: absolute;
+    border: 2.5px solid rgba(255, 0, 0, 0.623);
+    width: 200px;
+    height: 270px;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
